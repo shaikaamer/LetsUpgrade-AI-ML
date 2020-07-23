@@ -1,0 +1,75 @@
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.6.1 -- An enhanced Interactive Python.
+
+
+
+runfile('D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Spyder/LetsUpgrade/Day -12/Day-12/untitled1.py', wdir='D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Spyder/LetsUpgrade/Day -12/Day-12')
+
+runfile('D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Spyder/LetsUpgrade/Day -12/Day-12/untitled1.py', wdir='D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Spyder/LetsUpgrade/Day -12/Day-12')
+   Age Attrition  ... YearsSinceLastPromotion YearsWithCurrManager
+0   51        No  ...                       0                    0
+1   31       Yes  ...                       1                    4
+2   32        No  ...                       0                    3
+3   38        No  ...                       7                    5
+4   32        No  ...                       0                    4
+
+[5 rows x 24 columns]
+    Age Attrition  ... YearsSinceLastPromotion YearsWithCurrManager
+1    31       Yes  ...                       1                    4
+6    28       Yes  ...                       0                    0
+13   47       Yes  ...                       9                    9
+28   44       Yes  ...                       0                    0
+30   26       Yes  ...                       0                    2
+
+[5 rows x 24 columns]
+   Age Attrition  ... YearsSinceLastPromotion YearsWithCurrManager
+0   51        No  ...                       0                    0
+2   32        No  ...                       0                    3
+3   38        No  ...                       7                    5
+4   32        No  ...                       0                    4
+5   46        No  ...                       7                    7
+
+[5 rows x 24 columns]
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.6.1 -- An enhanced Interactive Python.
+
+runfile('D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Spyder/LetsUpgrade/Day -12/Day-12/Day_12_Assignment.py', wdir='D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Spyder/LetsUpgrade/Day -12/Day-12')
+   Age  Attrition  ...  YearsSinceLastPromotion YearsWithCurrManager
+0   51          0  ...                        0                    0
+1   31          1  ...                        1                    4
+2   32          0  ...                        0                    3
+3   38          0  ...                        7                    5
+4   32          0  ...                        0                    4
+
+[5 rows x 24 columns]
+    Age  Attrition  ...  YearsSinceLastPromotion YearsWithCurrManager
+1    31          1  ...                        1                    4
+6    28          1  ...                        0                    0
+13   47          1  ...                        9                    9
+28   44          1  ...                        0                    0
+30   26          1  ...                        0                    2
+
+[5 rows x 24 columns]
+   Age  Attrition  ...  YearsSinceLastPromotion YearsWithCurrManager
+0   51          0  ...                        0                    0
+2   32          0  ...                        0                    3
+3   38          0  ...                        7                    5
+4   32          0  ...                        0                    4
+5   46          0  ...                        7                    7
+
+[5 rows x 24 columns]
+There is no significant difference between the DistanceFromHome from Home w.r.t Attrition 1312110.0 0.4629185205822659
+There is significant difference between the MonthlyIncome  w.r.t Attrition -2.0708863763619316 0.03842748490605113
+There is no significant difference between the BusinessTravel  w.r.t Attrition 8.501155631965604 2.5366396530230266e-17
+There is no significant difference between the Distance  w.r.t Attrition -0.6460416038042738 0.518286042805572
+There is no significant difference between the Education  w.r.t Attrition -1.003386859630148 0.3157293177122392
+There is no significant difference between the JobLevel  w.r.t Attrition -0.6831987436544922 0.4945171727187496
+There is significant difference between the PercentSalaryHike  w.r.t Attrition 2.1610730224641777 0.03074338643339195
+There is significant difference between the TrainingTimesLastYear  w.r.t Attrition -3.2858496615530743 0.0010247061915374478
+There is no significant difference between the YearsAtCompany  w.r.t Attrition -9.004357011787226 3.163883122491456e-19
+There is significant difference between the YearsSinceLastPromotion  w.r.t Attrition -2.1934039604328843 0.028330336189428353
+There is no significant difference between the YearsWithCurrManager  w.r.t Attrition -10.499379408703438 1.7339322652918153e-25
