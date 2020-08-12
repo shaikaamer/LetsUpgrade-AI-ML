@@ -1,0 +1,25 @@
+runfile('D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Jupiter_NoteBook/Assignments/Day-24/Bank_LoanDecision.py', wdir='D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Jupiter_NoteBook/Assignments/Day-24')
+Index(['ID', 'Age', 'Experience', 'Income', 'ZIP Code', 'Family', 'CCAvg',
+       'Education', 'Mortgage', 'Personal Loan', 'Securities Account',
+       'CD Account', 'Online', 'CreditCard'],
+      dtype='object')
+D:\Courses\AI-ML\Let's Upgrade AI-ML\Jupiter_NoteBook\Assignments\Day-24\Bank_LoanDecision.py:25: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  dataset3["CCAvg"]=np.round(dataset3["CCAvg"])
+OOB Accuracy
+0.9141768598355725
+
+Age 0.007196591727058707
+Experience 0.0021565725877937115
+Income 0.34399295426757903
+Family 0.056233613838226074
+CCAvg 0.24294897683912195
+Education 0.1047849482640865
+Mortgage 0.07553375303400076
+Securities Account 0.0020095679759053117
+CD Account 0.16194370798728003
+Online 0.00041344998017816864
+CreditCard 0.002785863498769993

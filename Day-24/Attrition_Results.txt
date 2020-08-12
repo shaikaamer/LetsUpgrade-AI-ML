@@ -1,0 +1,39 @@
+runfile('D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Jupiter_NoteBook/Assignments/Day-24/AttritionDecision.py', wdir='D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Jupiter_NoteBook/Assignments/Day-24')
+Index(['Age', 'Attrition', 'BusinessTravel', 'Department', 'DistanceFromHome',
+       'Education', 'EducationField', 'EmployeeCount', 'EmployeeID', 'Gender',
+       'JobLevel', 'JobRole', 'MaritalStatus', 'MonthlyIncome',
+       'NumCompaniesWorked', 'Over18', 'PercentSalaryHike', 'StandardHours',
+       'StockOptionLevel', 'TotalWorkingYears', 'TrainingTimesLastYear',
+       'YearsAtCompany', 'YearsSinceLastPromotion', 'YearsWithCurrManager'],
+      dtype='object')
+After Droping few Columns from the main Dataframe 
+
+Index(['Age', 'Attrition', 'BusinessTravel', 'Department', 'DistanceFromHome',
+       'Education', 'EducationField', 'Gender', 'JobLevel', 'JobRole',
+       'MaritalStatus', 'MonthlyIncome', 'NumCompaniesWorked',
+       'PercentSalaryHike', 'StockOptionLevel', 'TotalWorkingYears',
+       'TrainingTimesLastYear', 'YearsAtCompany', 'YearsSinceLastPromotion',
+       'YearsWithCurrManager'],
+      dtype='object')
+Oob Score
+0.8448979591836735
+
+Age 0.09620341501552201
+BusinessTravel 0.027507617144325286
+Department 0.026800409166734842
+DistanceFromHome 0.06866098066461562
+Education 0.04001403434994739
+EducationField 0.04158543182704469
+Gender 0.018077789748598458
+JobLevel 0.03786836165845022
+JobRole 0.05490248103541047
+MaritalStatus 0.0397053234261888
+MonthlyIncome 0.09369371356869209
+NumCompaniesWorked 0.056834285487742
+PercentSalaryHike 0.0657256818659178
+StockOptionLevel 0.03441913517960748
+TotalWorkingYears 0.08582761014544463
+TrainingTimesLastYear 0.04448718139631706
+YearsAtCompany 0.06832675527742765
+YearsSinceLastPromotion 0.044245835741030866
+YearsWithCurrManager 0.05511395730098271
