@@ -1,0 +1,476 @@
+runfile('D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Project/Day-1/Day-1.py', wdir='D:/Courses/AI-ML/Let\'s Upgrade AI-ML/Project/Day-1')
+Data:Pritning
+{'__header__': b'MATLAB 5.0 MAT-file, written by Octave 3.8.0, 2014-12-18 10:48:09 UTC', '__version__': '1.0', '__globals__': [], 'X': array([[ 0.00491231,  0.69319077, -0.20364049, ...,  0.23149795,
+        -0.28978574, -0.49329397],
+       [ 0.11072935, -0.07990259, -0.20364049, ...,  0.09356344,
+        -0.25638541, -0.49329397],
+       [ 0.21654639, -0.27244466, -0.20364049, ...,  0.02459619,
+        -0.25638541,  1.14001753],
+       ...,
+       [-0.41835583, -0.91998844, -0.16463485, ..., -1.49268341,
+         0.24461959, -0.49329397],
+       [-0.41835583, -0.91998844, -0.15093411, ..., -1.42371616,
+         0.14441859, -0.49329397],
+       [-0.41835583, -0.91998844, -0.20364049, ..., -1.28578165,
+         3.58465295, -0.49329397]]), 'y': array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [1.],
+       [1.],
+       [1.]])}
+Length of data:
+5
+data:Keys
+dict_keys(['__header__', '__version__', '__globals__', 'X', 'y'])
+data:values
+dict_values([b'MATLAB 5.0 MAT-file, written by Octave 3.8.0, 2014-12-18 10:48:09 UTC', '1.0', [], array([[ 0.00491231,  0.69319077, -0.20364049, ...,  0.23149795,
+        -0.28978574, -0.49329397],
+       [ 0.11072935, -0.07990259, -0.20364049, ...,  0.09356344,
+        -0.25638541, -0.49329397],
+       [ 0.21654639, -0.27244466, -0.20364049, ...,  0.02459619,
+        -0.25638541,  1.14001753],
+       ...,
+       [-0.41835583, -0.91998844, -0.16463485, ..., -1.49268341,
+         0.24461959, -0.49329397],
+       [-0.41835583, -0.91998844, -0.15093411, ..., -1.42371616,
+         0.14441859, -0.49329397],
+       [-0.41835583, -0.91998844, -0.20364049, ..., -1.28578165,
+         3.58465295, -0.49329397]]), array([[0.],
+       [0.],
+       [0.],
+       ...,
+       [1.],
+       [1.],
+       [1.]])])
+To know the type of x
+<class 'numpy.ndarray'>
+To know the type of y
+<class 'numpy.ndarray'>
+To know the shape of the File Data - X
+(1831, 21)
+To know the shape of the File for Data - y
+(1831, 1)
+['Data', '#Samples', '# Dimensions', 'Outlier Perc', 'ABOD', 'CBLOF', 'FB', 'HBOS', 'IForest', 'KNN', 'LOF', 'MCD', 'OCSVM', 'PCA']
+ROC Performance Evolution Table:
+Empty DataFrame
+Columns: [Data, #Samples, # Dimensions, Outlier Perc, ABOD, CBLOF, FB, HBOS, IForest, KNN, LOF, MCD, OCSVM, PCA]
+Index: []
+Performace evolution table:
+Empty DataFrame
+Columns: [Data, #Samples, # Dimensions, Outlier Perc, ABOD, CBLOF, FB, HBOS, IForest, KNN, LOF, MCD, OCSVM, PCA]
+Index: []
+Time Dataframe:
+Index(['Data', '#Samples', '# Dimensions', 'Outlier Perc', 'ABOD', 'CBLOF',
+       'FB', 'HBOS', 'IForest', 'KNN', 'LOF', 'MCD', 'OCSVM', 'PCA'],
+      dtype='object')
+Exploring all the Mat File
+
+ ..Processing arrhythmia.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.7687,precision @ rank n:0.3571 execution time:0.4757s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.7684,precision @ rank n:0.4643 execution time:0.2399s
+Feature Bagging ROC:0.7799,precision @ rank n:0.5 execution time:1.1134s
+Histogram-base Outlier Detection (HBOS) ROC:0.8511,precision @ rank n:0.5714 execution time:0.1329s
+Isolation Forest ROC:0.8478,precision @ rank n:0.5357 execution time:0.9145s
+K Nearest Neighbours (KNN) ROC:0.782,precision @ rank n:0.5 execution time:0.1519s
+Local Outlier Factor (LOF) ROC:0.7787,precision @ rank n:0.4643 execution time:0.1329s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:647: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn("The covariance matrix associated to your dataset "
+Minimum Coveriance Dtermination (MCD) ROC:0.8228,precision @ rank n:0.4286 execution time:1.3352s
+One-class SVM(OCSVM) ROC:0.7986,precision @ rank n:0.5 execution time:0.077s
+Principal Component Analysis (PCA) ROC:0.7997,precision @ rank n:0.5 execution time:0.1179s
+
+ ..Processing cardio.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.5763,precision @ rank n:0.1875 execution time:0.8046s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.8221,precision @ rank n:0.4844 execution time:0.3168s
+Feature Bagging ROC:0.4879,precision @ rank n:0.1406 execution time:2.9969s
+Histogram-base Outlier Detection (HBOS) ROC:0.8453,precision @ rank n:0.4688 execution time:0.015s
+Isolation Forest ROC:0.9316,precision @ rank n:0.4531 execution time:0.8625s
+K Nearest Neighbours (KNN) ROC:0.6959,precision @ rank n:0.2812 execution time:0.2958s
+Local Outlier Factor (LOF) ROC:0.4715,precision @ rank n:0.125 execution time:0.1839s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:647: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn("The covariance matrix associated to your dataset "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-152.076751858648862 > -250.756822706501453). You may want to try with a higher value of support_fraction (current value: 0.511).
+  warnings.warn("Determinant has increased; this should not happen: "
+Minimum Coveriance Dtermination (MCD) ROC:0.8778,precision @ rank n:0.3906 execution time:1.2283s
+One-class SVM(OCSVM) ROC:0.9507,precision @ rank n:0.5938 execution time:0.1849s
+Principal Component Analysis (PCA) ROC:0.9638,precision @ rank n:0.6875 execution time:0.011s
+
+ ..Processing glass.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.7104,precision @ rank n:0.25 execution time:0.105s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.8506,precision @ rank n:0.25 execution time:0.1289s
+Feature Bagging ROC:0.7043,precision @ rank n:0.25 execution time:0.0919s
+Histogram-base Outlier Detection (HBOS) ROC:0.6524,precision @ rank n:0.0 execution time:0.005s
+Isolation Forest ROC:0.7195,precision @ rank n:0.25 execution time:0.7296s
+K Nearest Neighbours (KNN) ROC:0.7805,precision @ rank n:0.25 execution time:0.017s
+Local Outlier Factor (LOF) ROC:0.7774,precision @ rank n:0.25 execution time:0.005s
+Minimum Coveriance Dtermination (MCD) ROC:0.7165,precision @ rank n:0.0 execution time:0.0779s
+One-class SVM(OCSVM) ROC:0.6189,precision @ rank n:0.25 execution time:0.003s
+Principal Component Analysis (PCA) ROC:0.622,precision @ rank n:0.25 execution time:0.004s
+
+ ..Processing ionosphere.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.9004,precision @ rank n:0.8214 execution time:0.1629s
+Cluster-based Local Outlier Factor ROC:0.8952,precision @ rank n:0.8036 execution time:0.098s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Feature Bagging ROC:0.8933,precision @ rank n:0.75 execution time:0.1349s
+Histogram-base Outlier Detection (HBOS) ROC:0.5195,precision @ rank n:0.3393 execution time:0.018s
+Isolation Forest ROC:0.8294,precision @ rank n:0.6607 execution time:0.8845s
+K Nearest Neighbours (KNN) ROC:0.9134,precision @ rank n:0.8393 execution time:0.049s
+Local Outlier Factor (LOF) ROC:0.8989,precision @ rank n:0.75 execution time:0.018s
+Minimum Coveriance Dtermination (MCD) ROC:0.9399,precision @ rank n:0.8571 execution time:0.4068s
+One-class SVM(OCSVM) ROC:0.8372,precision @ rank n:0.7143 execution time:0.009s
+Principal Component Analysis (PCA) ROC:0.7971,precision @ rank n:0.5893 execution time:0.006s
+
+ ..Processing letter.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.8465,precision @ rank n:0.275 execution time:0.7555s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.7423,precision @ rank n:0.175 execution time:0.2309s
+Feature Bagging ROC:0.866,precision @ rank n:0.4 execution time:1.3942s
+Histogram-base Outlier Detection (HBOS) ROC:0.5728,precision @ rank n:0.125 execution time:0.021s
+Isolation Forest ROC:0.5836,precision @ rank n:0.05 execution time:0.8835s
+K Nearest Neighbours (KNN) ROC:0.845,precision @ rank n:0.3 execution time:0.2788s
+Local Outlier Factor (LOF) ROC:0.8409,precision @ rank n:0.325 execution time:0.1619s
+Minimum Coveriance Dtermination (MCD) ROC:0.7499,precision @ rank n:0.075 execution time:2.6225s
+One-class SVM(OCSVM) ROC:0.5744,precision @ rank n:0.1 execution time:0.1509s
+Principal Component Analysis (PCA) ROC:0.48,precision @ rank n:0.05 execution time:0.009s
+
+ ..Processing lympho.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.9382,precision @ rank n:0.4 execution time:0.059s
+Cluster-based Local Outlier Factor ROC:0.9709,precision @ rank n:0.6 execution time:0.0969s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Feature Bagging ROC:0.9673,precision @ rank n:0.6 execution time:0.071s
+Histogram-base Outlier Detection (HBOS) ROC:0.9964,precision @ rank n:0.8 execution time:0.009s
+Isolation Forest ROC:0.9855,precision @ rank n:0.6 execution time:0.6716s
+K Nearest Neighbours (KNN) ROC:0.9636,precision @ rank n:0.6 execution time:0.013s
+Local Outlier Factor (LOF) ROC:0.9636,precision @ rank n:0.6 execution time:0.004s
+Minimum Coveriance Dtermination (MCD) ROC:0.9164,precision @ rank n:0.6 execution time:0.073s
+One-class SVM(OCSVM) ROC:0.9636,precision @ rank n:0.6 execution time:0.002s
+Principal Component Analysis (PCA) ROC:0.9818,precision @ rank n:0.8 execution time:0.004s
+
+ ..Processing mnist.mat
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-303.881944356529402 > -525.830836350540153). You may want to try with a higher value of support_fraction (current value: 0.614).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-304.021763033307082 > -523.143378896311901). You may want to try with a higher value of support_fraction (current value: 0.614).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-338.921775030610604 > -381.672782741425522). You may want to try with a higher value of support_fraction (current value: 0.614).
+  warnings.warn("Determinant has increased; this should not happen: "
+Angle-Based Outlier Detection (ABOD) ROC:0.7813,precision @ rank n:0.3562 execution time:12.8556s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.8447,precision @ rank n:0.4007 execution time:1.3362s
+Feature Bagging ROC:0.7259,precision @ rank n:0.3664 execution time:88.719s
+Histogram-base Outlier Detection (HBOS) ROC:0.5675,precision @ rank n:0.1199 execution time:0.1079s
+Isolation Forest ROC:0.7813,precision @ rank n:0.3116 execution time:3.409s
+K Nearest Neighbours (KNN) ROC:0.8409,precision @ rank n:0.4144 execution time:11.4364s
+Local Outlier Factor (LOF) ROC:0.7085,precision @ rank n:0.339 execution time:11.3665s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:647: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn("The covariance matrix associated to your dataset "
+Minimum Coveriance Dtermination (MCD) ROC:0.863,precision @ rank n:0.3973 execution time:5.179s
+One-class SVM(OCSVM) ROC:0.8417,precision @ rank n:0.3801 execution time:7.3698s
+Principal Component Analysis (PCA) ROC:0.8396,precision @ rank n:0.3767 execution time:0.2928s
+
+ ..Processing musk.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.0809,precision @ rank n:0.0333 execution time:5.24s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:1.0,precision @ rank n:1.0 execution time:0.5777s
+Feature Bagging ROC:0.5228,precision @ rank n:0.1667 execution time:25.0376s
+Histogram-base Outlier Detection (HBOS) ROC:0.9999,precision @ rank n:0.9667 execution time:0.1159s
+Isolation Forest ROC:0.9992,precision @ rank n:0.9 execution time:2.3397s
+K Nearest Neighbours (KNN) ROC:0.7348,precision @ rank n:0.2333 execution time:3.1662s
+Local Outlier Factor (LOF) ROC:0.5323,precision @ rank n:0.1333 execution time:2.9503s
+Minimum Coveriance Dtermination (MCD) ROC:1.0,precision @ rank n:0.9667 execution time:23.5575s
+One-class SVM(OCSVM) ROC:1.0,precision @ rank n:1.0 execution time:1.852s
+Principal Component Analysis (PCA) ROC:1.0,precision @ rank n:1.0 execution time:0.2468s
+
+ ..Processing optdigits.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.4428,precision @ rank n:0.0161 execution time:4.7283s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.7852,precision @ rank n:0.0 execution time:0.6716s
+Feature Bagging ROC:0.4641,precision @ rank n:0.0484 execution time:25.0696s
+Histogram-base Outlier Detection (HBOS) ROC:0.8822,precision @ rank n:0.2581 execution time:0.06s
+Isolation Forest ROC:0.5442,precision @ rank n:0.0161 execution time:1.8799s
+K Nearest Neighbours (KNN) ROC:0.3824,precision @ rank n:0.0 execution time:3.2441s
+Local Outlier Factor (LOF) ROC:0.4584,precision @ rank n:0.0484 execution time:2.7554s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:647: UserWarning: The covariance matrix associated to your dataset is not full rank
+  warnings.warn("The covariance matrix associated to your dataset "
+Minimum Coveriance Dtermination (MCD) ROC:0.3486,precision @ rank n:0.0 execution time:2.4546s
+One-class SVM(OCSVM) ROC:0.4972,precision @ rank n:0.0 execution time:2.3207s
+Principal Component Analysis (PCA) ROC:0.504,precision @ rank n:0.0 execution time:0.0989s
+
+ ..Processing pendigits.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.7008,precision @ rank n:0.0308 execution time:3.0902s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.9609,precision @ rank n:0.3077 execution time:0.4817s
+Feature Bagging ROC:0.4687,precision @ rank n:0.0462 execution time:8.8529s
+Histogram-base Outlier Detection (HBOS) ROC:0.9294,precision @ rank n:0.2615 execution time:0.02s
+Isolation Forest ROC:0.9482,precision @ rank n:0.2615 execution time:1.4142s
+K Nearest Neighbours (KNN) ROC:0.7602,precision @ rank n:0.0462 execution time:1.2313s
+Local Outlier Factor (LOF) ROC:0.481,precision @ rank n:0.0462 execution time:1.0834s
+Minimum Coveriance Dtermination (MCD) ROC:0.8271,precision @ rank n:0.0615 execution time:4.9422s
+One-class SVM(OCSVM) ROC:0.93,precision @ rank n:0.2923 execution time:1.82s
+Principal Component Analysis (PCA) ROC:0.9332,precision @ rank n:0.3385 execution time:0.014s
+
+ ..Processing pima.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.6757,precision @ rank n:0.5106 execution time:0.3208s
+Cluster-based Local Outlier Factor ROC:0.684,precision @ rank n:0.4681 execution time:0.1499s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Feature Bagging ROC:0.6446,precision @ rank n:0.4468 execution time:0.1933s
+Histogram-base Outlier Detection (HBOS) ROC:0.7169,precision @ rank n:0.5213 execution time:0.006s
+Isolation Forest ROC:0.6777,precision @ rank n:0.4787 execution time:0.7066s
+K Nearest Neighbours (KNN) ROC:0.7252,precision @ rank n:0.5106 execution time:0.07s
+Local Outlier Factor (LOF) ROC:0.6604,precision @ rank n:0.4787 execution time:0.019s
+Minimum Coveriance Dtermination (MCD) ROC:0.7047,precision @ rank n:0.4787 execution time:0.1209s
+One-class SVM(OCSVM) ROC:0.6423,precision @ rank n:0.4574 execution time:0.025s
+Principal Component Analysis (PCA) ROC:0.6639,precision @ rank n:0.5 execution time:0.003s
+
+ ..Processing satellite.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.5681,precision @ rank n:0.3918 execution time:3.6999s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.7234,precision @ rank n:0.5574 execution time:0.5517s
+Feature Bagging ROC:0.557,precision @ rank n:0.4051 execution time:15.0733s
+Histogram-base Outlier Detection (HBOS) ROC:0.7393,precision @ rank n:0.5466 execution time:0.038s
+Isolation Forest ROC:0.7094,precision @ rank n:0.578 execution time:1.81s
+K Nearest Neighbours (KNN) ROC:0.6781,precision @ rank n:0.4994 execution time:2.2627s
+Local Outlier Factor (LOF) ROC:0.5551,precision @ rank n:0.4051 execution time:2.1917s
+Minimum Coveriance Dtermination (MCD) ROC:0.792,precision @ rank n:0.6747 execution time:6.1025s
+One-class SVM(OCSVM) ROC:0.636,precision @ rank n:0.5224 execution time:2.4006s
+Principal Component Analysis (PCA) ROC:0.5783,precision @ rank n:0.4559 execution time:0.042s
+
+ ..Processing satimage-2.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.86,precision @ rank n:0.2593 execution time:3.2482s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.9987,precision @ rank n:0.8889 execution time:0.4907s
+Feature Bagging ROC:0.4971,precision @ rank n:0.0741 execution time:11.5963s
+Histogram-base Outlier Detection (HBOS) ROC:0.9837,precision @ rank n:0.5926 execution time:0.039s
+Isolation Forest ROC:0.9973,precision @ rank n:0.8889 execution time:1.5791s
+K Nearest Neighbours (KNN) ROC:0.9505,precision @ rank n:0.3704 execution time:1.693s
+Local Outlier Factor (LOF) ROC:0.5006,precision @ rank n:0.0741 execution time:1.4172s
+Minimum Coveriance Dtermination (MCD) ROC:0.9946,precision @ rank n:0.5185 execution time:5.5608s
+One-class SVM(OCSVM) ROC:0.9976,precision @ rank n:0.9259 execution time:2.0359s
+Principal Component Analysis (PCA) ROC:0.9841,precision @ rank n:0.8519 execution time:0.039s
+
+ ..Processing shuttle.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.6186,precision @ rank n:0.1918 execution time:32.994s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Cluster-based Local Outlier Factor ROC:0.6286,precision @ rank n:0.2336 execution time:1.4761s
+Feature Bagging ROC:0.5211,precision @ rank n:0.111 execution time:112.284s
+Histogram-base Outlier Detection (HBOS) ROC:0.9851,precision @ rank n:0.9857 execution time:0.034s
+Isolation Forest ROC:0.9972,precision @ rank n:0.9337 execution time:5.6418s
+K Nearest Neighbours (KNN) ROC:0.645,precision @ rank n:0.2199 execution time:19.087s
+Local Outlier Factor (LOF) ROC:0.5347,precision @ rank n:0.1406 execution time:25.2115s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.541490230701029 > -75.592253998160075). You may want to try with a higher value of support_fraction (current value: 0.503).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.022992269210960 > -76.150022952275933). You may want to try with a higher value of support_fraction (current value: 0.503).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-48.588090860494539 > -73.997089087121466). You may want to try with a higher value of support_fraction (current value: 0.503).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.127165967938183 > -76.814431864511675). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.260339163313539 > -78.023249567800050). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.088727288180230 > -75.807071893752777). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.582785491594258 > -76.839560162782732). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.000544286938272 > -76.024708215839055). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.556584528453939 > -77.098667780847151). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.245517031315956 > -77.106596123606195). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.240104267008959 > -75.123663778575732). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.250211305122960 > -75.161225962785579). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.909548626708514 > -76.746548033129827). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.891326544720201 > -75.682233763432791). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.235422027283533 > -78.561753636241093). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.859327893628368 > -75.506059781784103). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.586488761883487 > -75.469733773072392). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.101075588075439 > -76.370317600339888). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.312636661667796 > -77.314200632105894). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.250066970763996 > -78.448260993169939). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.555505358476616 > -76.383177602584198). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.335525612751205 > -77.908648519871576). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.312868452035687 > -78.275586981066382). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.764724066883169 > -77.282352110428548). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.672481809425683 > -75.780064170775418). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-48.810409699567977 > -116.332661175263638). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.246740593074335 > -75.373826826202034). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.256978425484334 > -76.476983289741668). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.288199308055383 > -75.990589261845741). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.329968951469127 > -77.419260242706173). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.221834205302208 > -76.598158257798758). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.289029393101316 > -75.757556561108402). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-49.385618505522736 > -76.886683446606412). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.182879512156042 > -80.162519537026284). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.209250265997788 > -77.413630033229708). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.362224422506152 > -77.102387005732240). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.173137659451349 > -75.808458672225186). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.294483190145364 > -76.390291443926884). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.208972773367478 > -75.741530995676570). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.378081918545995 > -76.605948395137602). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.916820128957937 > -76.942173834118762). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.077545968806454 > -75.696921172394340). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.436632051329866 > -76.438541656063606). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.734734341696125 > -76.521728710156069). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-51.027942813065167 > -78.340142760863017). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-51.132819510101370 > -80.575229534365377). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\covariance\_robust_covariance.py:166: RuntimeWarning: Determinant has increased; this should not happen: log(det) > log(previous_det) (-50.826679532509473 > -77.642101236680006). You may want to try with a higher value of support_fraction (current value: 0.501).
+  warnings.warn("Determinant has increased; this should not happen: "
+Minimum Coveriance Dtermination (MCD) ROC:0.9903,precision @ rank n:0.7534 execution time:25.6652s
+One-class SVM(OCSVM) ROC:0.9922,precision @ rank n:0.9553 execution time:100.6541s
+Principal Component Analysis (PCA) ROC:0.9902,precision @ rank n:0.9503 execution time:0.067s
+
+ ..Processing vertebral.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.2797,precision @ rank n:0.0 execution time:0.1199s
+Cluster-based Local Outlier Factor ROC:0.3908,precision @ rank n:0.0 execution time:0.094s
+Feature Bagging ROC:0.3027,precision @ rank n:0.0 execution time:0.0679s
+Histogram-base Outlier Detection (HBOS) ROC:0.2695,precision @ rank n:0.0 execution time:0.004s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Isolation Forest ROC:0.3576,precision @ rank n:0.0 execution time:0.6766s
+K Nearest Neighbours (KNN) ROC:0.318,precision @ rank n:0.0 execution time:0.018s
+Local Outlier Factor (LOF) ROC:0.318,precision @ rank n:0.0 execution time:0.005s
+Minimum Coveriance Dtermination (MCD) ROC:0.3308,precision @ rank n:0.0 execution time:0.0859s
+One-class SVM(OCSVM) ROC:0.4087,precision @ rank n:0.0 execution time:0.004s
+Principal Component Analysis (PCA) ROC:0.3397,precision @ rank n:0.0 execution time:0.004s
+
+ ..Processing vowels.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.9521,precision @ rank n:0.4706 execution time:0.6196s
+Cluster-based Local Outlier Factor ROC:0.9278,precision @ rank n:0.4118 execution time:0.1799sC:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+
+Feature Bagging ROC:0.9385,precision @ rank n:0.3529 execution time:0.5707s
+Histogram-base Outlier Detection (HBOS) ROC:0.6758,precision @ rank n:0.1765 execution time:0.008s
+Isolation Forest ROC:0.7469,precision @ rank n:0.1176 execution time:0.8535s
+K Nearest Neighbours (KNN) ROC:0.9568,precision @ rank n:0.5294 execution time:0.1589s
+Local Outlier Factor (LOF) ROC:0.9345,precision @ rank n:0.4118 execution time:0.064s
+Minimum Coveriance Dtermination (MCD) ROC:0.6779,precision @ rank n:0.0 execution time:1.737s
+One-class SVM(OCSVM) ROC:0.7415,precision @ rank n:0.2941 execution time:0.0969s
+Principal Component Analysis (PCA) ROC:0.5787,precision @ rank n:0.1176 execution time:0.005s
+
+ ..Processing wbc.mat
+Angle-Based Outlier Detection (ABOD) ROC:0.9232,precision @ rank n:0.3 execution time:0.1859s
+Cluster-based Local Outlier Factor ROC:0.9063,precision @ rank n:0.6 execution time:0.1199s
+C:\Users\PAK\anaconda3-64\lib\site-packages\sklearn\cluster\_kmeans.py:973: FutureWarning: 'n_jobs' was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn("'n_jobs' was deprecated in version 0.23 and will be"
+Feature Bagging ROC:0.9415,precision @ rank n:0.5 execution time:0.1419s
+Histogram-base Outlier Detection (HBOS) ROC:0.9592,precision @ rank n:0.7 execution time:0.018s
+Isolation Forest ROC:0.9451,precision @ rank n:0.5 execution time:0.7016s
+K Nearest Neighbours (KNN) ROC:0.9437,precision @ rank n:0.5 execution time:0.038s
+Local Outlier Factor (LOF) ROC:0.9352,precision @ rank n:0.4 execution time:0.015s
+Minimum Coveriance Dtermination (MCD) ROC:0.8986,precision @ rank n:0.4 execution time:0.1529s
+One-class SVM(OCSVM) ROC:0.9408,precision @ rank n:0.5 execution time:0.009s
+Principal Component Analysis (PCA) ROC:0.9324,precision @ rank n:0.6 execution time:0.005s
+Final-Results
+         Data #Samples # Dimensions  ...     MCD   OCSVM     PCA
+0  arrhythmia      452          274  ...  0.8228  0.7986  0.7997
+0      cardio     1831           21  ...  0.8778  0.9507  0.9638
+0       glass      214            9  ...  0.7165  0.6189   0.622
+0  ionosphere      351           33  ...  0.9399  0.8372  0.7971
+0      letter     1600           32  ...  0.7499  0.5744    0.48
+0      lympho      148           18  ...  0.9164  0.9636  0.9818
+0       mnist     7603          100  ...   0.863  0.8417  0.8396
+0        musk     3062          166  ...       1       1       1
+0   optdigits     5216           64  ...  0.3486  0.4972   0.504
+0   pendigits     6870           16  ...  0.8271    0.93  0.9332
+0        pima      768            8  ...  0.7047  0.6423  0.6639
+0   satellite     6435           36  ...   0.792   0.636  0.5783
+0  satimage-2     5803           36  ...  0.9946  0.9976  0.9841
+0     shuttle    49097            9  ...  0.9903  0.9922  0.9902
+0   vertebral      240            6  ...  0.3308  0.4087  0.3397
+0      vowels     1456           12  ...  0.6779  0.7415  0.5787
+0         wbc      378           30  ...  0.8986  0.9408  0.9324
+
+[17 rows x 14 columns]
+         Data #Samples # Dimensions  ...     MCD   OCSVM     PCA
+0  arrhythmia      452          274  ...  0.4286     0.5     0.5
+0      cardio     1831           21  ...  0.3906  0.5938  0.6875
+0       glass      214            9  ...       0    0.25    0.25
+0  ionosphere      351           33  ...  0.8571  0.7143  0.5893
+0      letter     1600           32  ...   0.075     0.1    0.05
+0      lympho      148           18  ...     0.6     0.6     0.8
+0       mnist     7603          100  ...  0.3973  0.3801  0.3767
+0        musk     3062          166  ...  0.9667       1       1
+0   optdigits     5216           64  ...       0       0       0
+0   pendigits     6870           16  ...  0.0615  0.2923  0.3385
+0        pima      768            8  ...  0.4787  0.4574     0.5
+0   satellite     6435           36  ...  0.6747  0.5224  0.4559
+0  satimage-2     5803           36  ...  0.5185  0.9259  0.8519
+0     shuttle    49097            9  ...  0.7534  0.9553  0.9503
+0   vertebral      240            6  ...       0       0       0
+0      vowels     1456           12  ...       0  0.2941  0.1176
+0         wbc      378           30  ...     0.4     0.5     0.6
+
+[17 rows x 14 columns]
+         Data #Samples # Dimensions  ...      MCD    OCSVM     PCA
+0  arrhythmia      452          274  ...   1.3352    0.077  0.1179
+0      cardio     1831           21  ...   1.2283   0.1849   0.011
+0       glass      214            9  ...   0.0779    0.003   0.004
+0  ionosphere      351           33  ...   0.4068    0.009   0.006
+0      letter     1600           32  ...   2.6225   0.1509   0.009
+0      lympho      148           18  ...    0.073    0.002   0.004
+0       mnist     7603          100  ...    5.179   7.3698  0.2928
+0        musk     3062          166  ...  23.5575    1.852  0.2468
+0   optdigits     5216           64  ...   2.4546   2.3207  0.0989
+0   pendigits     6870           16  ...   4.9422     1.82   0.014
+0        pima      768            8  ...   0.1209    0.025   0.003
+0   satellite     6435           36  ...   6.1025   2.4006   0.042
+0  satimage-2     5803           36  ...   5.5608   2.0359   0.039
+0     shuttle    49097            9  ...  25.6652  100.654   0.067
+0   vertebral      240            6  ...   0.0859    0.004   0.004
+0      vowels     1456           12  ...    1.737   0.0969   0.005
+0         wbc      378           30  ...   0.1529    0.009   0.005
+
+[17 rows x 14 columns]
